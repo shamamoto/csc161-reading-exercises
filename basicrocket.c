@@ -14,8 +14,9 @@ void printBox(void) {
     printf("  ------\n");
 }
 
-void drawRocketShip (void) {
-    printCone (); 
-    printBox ();
-    printCone ();
+int main (void) {
+    void drawRocketShip (void) 
+        printCone (); 
+        printBox ();
+        printCone ();
 }
