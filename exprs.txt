@@ -1,0 +1,30 @@
+#include <stdio.n>
+
+ 
+/*Question 1:
+int means the variables are listed as integers. float indicates that there may be a fractional part (decimal involved). 
+16-bit ints are between -32768 and 32767. float is at least six sig figs and has a magnitude typically between 
+10^-38 and 10^38. short means short integer and double means double-precision floating point. 
+
+
+Question 2:
+
+int main (void) {
+float y = (2 + 5)/2;
+printf (%f\n", y);
+}
+
+Answer will be 3.000 because the float tells us that it will be a floating-point decimal. Which means we call
+it by %f thus printing as a floating-point (a integer that has fractional part). This truncates to 3.000 because the
+numbers given are not in decimal form (ex. 2.0). 
+
+Question 3:
+
+int main (void) {
+int i = 0;
+int j = 0;
+int x = i++;
+int y = ++j;
+}
+
+Answers will be 2. Because ++ increments by one (for each +) and before or after the variable does not matter. */
