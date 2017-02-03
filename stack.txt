@@ -1,0 +1,11 @@
+Program Counter:3
+
+The Stack
+=========
+--- foo 
+  x [5]
+--- main
+  x [5]
+  
+The stack prints out the foo in main (which is the variable 5). It also printers out the main (variable 5) because the 
+printf in line 5 tells us to print out the variable x. 
