@@ -1,0 +1,27 @@
+The compiler would read the second if as the else statement. 
+This would mean that if you gave the compiler 75, it would see that it is not
+greater than 90 so it would give the else statement - the letter b - which 
+is not what we want this code to do. 
+
+// In grade.c
+#include <stdio.h>
+
+int main(void) {
+    int grade = /* arbitrary initialiaztion of grade */;
+    char letter = 'f';    /* by default... */
+
+    if (grade > 90) {
+        letter = 'a';
+    }
+    else if (grade > 80) {
+        letter = 'b';
+    }
+    else if (grade > 70) {
+        letter = 'c';
+    }
+    else if (grade > 60) {
+        letter = 'd';
+    }
+    else printf("%c\n", letter);
+    return 0;
+}
