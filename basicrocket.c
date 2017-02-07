@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void printCone(void) {
+define printCone(void) {
     printf("    /\\\n");
     printf("   /  \\\n");
     printf("  /    \\\n");
     printf("  ------");
 }
 
-void printBox(void) {
+define printBox(void) {
     printf("  ------\n");
     printf("  |    |\n");
     printf("  |    |\n");
